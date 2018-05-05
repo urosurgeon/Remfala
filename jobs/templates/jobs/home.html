@@ -1,4 +1,5 @@
 <!doctype html>
+{% load staticfiles %}
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -33,6 +34,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'allblog' %}">Blog</a>
                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="{% static 'drawing.pdf' %}">Drawing Plans</a>
+                </li>
+
             </ul>
         </div>
     </nav>

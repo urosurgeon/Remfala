@@ -73,7 +73,7 @@
                             <small class="text-muted"> {{ post.pub_date_pretty }}</small>
                         </p>
                         <br/>
-                        <p>{{ post.summary }} ... <a href="#"> Read more!!</a>
+                        <p>{{ post.summary }} ... <a href="{% url 'blogdetail' post.id %}"> Read more!!</a>
 
                         </p>
 
